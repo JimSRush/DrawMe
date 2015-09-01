@@ -93,24 +93,27 @@
                                     <action selector="pencilPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J0Y-ti-kNJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GdU-3q-dYS">
-                                <rect key="frame" x="89" y="13" width="106" height="31"/>
-                                <state key="normal" image="reset-Small.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AsV-eo-dE4">
-                                <rect key="frame" x="442" y="14" width="91" height="30"/>
-                                <state key="normal" image="Save-Small.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1c-3y-Nyj">
-                                <rect key="frame" x="286" y="20" width="48" height="44"/>
-                                <state key="normal" image="Setting-1.png"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3H3-MQ-xwr">
                                 <rect key="frame" x="638" y="832" width="61" height="213"/>
                                 <state key="normal" image="Eraser.png"/>
                                 <connections>
                                     <action selector="eraserPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lnX-8j-8Hx"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GdU-3q-dYS">
+                                <rect key="frame" x="85" y="28" width="106" height="31"/>
+                                <state key="normal" image="reset-Small.png"/>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3PO-Ie-n5q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AsV-eo-dE4">
+                                <rect key="frame" x="623" y="34" width="91" height="30"/>
+                                <state key="normal" image="Save-Small.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1c-3y-Nyj">
+                                <rect key="frame" x="360" y="28" width="48" height="44"/>
+                                <state key="normal" image="Setting-1.png"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

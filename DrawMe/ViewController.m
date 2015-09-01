@@ -94,6 +94,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)reset:(id)sender {
+    self.mainImage.image = nil;//bai
+}
 
 
 /*Colours? I like colours*/
