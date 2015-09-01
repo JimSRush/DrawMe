@@ -94,9 +94,75 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+/*Colours? I like colours*/
 - (IBAction)pencilPressed:(id)sender {
+
+    UIButton * PressedButton = (UIButton*)sender;
+    
+    switch(PressedButton.tag) {
+        case 0:
+            red = 0.0/255.0;
+            green = 0.0/255.0;
+            blue = 0.0/255.0;
+            break;
+        case 1:
+            red = 105.0/255.0;
+            green = 105.0/255.0;
+            blue = 105.0/255.0;
+            break;
+        case 2:
+            red = 255.0/255.0;
+            green = 0.0/255.0;
+            blue = 0.0/255.0;
+            break;
+        case 3:
+            red = 0.0/255.0;
+            green = 0.0/255.0;
+            blue = 255.0/255.0;
+            break;
+        case 4:
+            red = 102.0/255.0;
+            green = 204.0/255.0;
+            blue = 0.0/255.0;
+            break;
+        case 5:
+            red = 102.0/255.0;
+            green = 255.0/255.0;
+            blue = 0.0/255.0;
+            break;
+        case 6:
+            red = 51.0/255.0;
+            green = 204.0/255.0;
+            blue = 255.0/255.0;
+            break;
+        case 7:
+            red = 160.0/255.0;
+            green = 82.0/255.0;
+            blue = 45.0/255.0;
+            break;
+        case 8:
+            red = 255.0/255.0;
+            green = 102.0/255.0;
+            blue = 0.0/255.0;
+            break;
+        case 9:
+            red = 255.0/255.0;
+            green = 255.0/255.0;
+            blue = 0.0/255.0;
+            break;
+            
+    }
 }
 
+
+/*The eraser sets it to white*/
 - (IBAction)eraserPressed:(id)sender {
+    red = 255.0/255.0;
+    green = 255.0/255.0;
+    blue = 255.0/255.0;
+    opacity = 1.0;
+
 }
 @end

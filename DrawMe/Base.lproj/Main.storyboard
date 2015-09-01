@@ -58,14 +58,14 @@
                                     <action selector="pencilPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LeJ-iR-hCh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPb-fA-WJN">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPb-fA-WJN">
                                 <rect key="frame" x="392" y="805" width="58" height="352"/>
                                 <state key="normal" image="LightGreen.png"/>
                                 <connections>
                                     <action selector="pencilPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hZG-Kh-pTe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjd-qE-GZY">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjd-qE-GZY">
                                 <rect key="frame" x="327" y="804" width="65" height="344"/>
                                 <state key="normal" image="LightBlue.png"/>
                                 <connections>
